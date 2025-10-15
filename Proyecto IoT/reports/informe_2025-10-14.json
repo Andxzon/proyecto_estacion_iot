@@ -1,0 +1,52 @@
+{
+    "fecha": "2025-10-14",
+    "resumen": "Día con humedad relativa persistentemente alta y suelo generalmente húmedo. Nubosidad variable con intervados soleados de alta luminosidad durante la mañana y la tarde; presión en ligero ascenso. Vibración despreciable.",
+    "condicion_general": "Dia Parcialmente Nublado",
+    "variables": {
+        "temperatura": {
+            "promedio": 19.07,
+            "max": 21.5,
+            "min": 17.0,
+            "tendencia": "estable"
+        },
+        "presion": {
+            "promedio": 1006.21,
+            "max": 1008.7,
+            "min": 1003.2,
+            "tendencia": "en aumento"
+        },
+        "humedad_relativa": {
+            "promedio": 91.73,
+            "max": 97.9,
+            "min": 85.6,
+            "tendencia": "estable"
+        },
+        "luminosidad": {
+            "promedio": 370.94,
+            "max": 1170.0,
+            "min": 5.0,
+            "tendencia": "estable"
+        },
+        "humedad_suelo": {
+            "promedio": 85.84,
+            "max": 94.6,
+            "min": 76.8,
+            "tendencia": "en aumento"
+        },
+        "vibracion": {
+            "promedio": 0.16,
+            "max": 0.3,
+            "min": 0.0,
+            "tendencia": "estable"
+        }
+    },
+    "anomalias": [
+        "Caída brusca de humedad del suelo a las 01:30 (94.6% → 76.8%) — cambio muy rápido en 30 min, posible error de sensor o evento puntual.",
+        "Aumento súbito de humedad del suelo a las 19:30 (79.5% → 94.3%) — variación rápida que sugiere riego/escorrentía o lectura errática.",
+        "Aumento marcado de luminosidad al amanecer a las 06:00 (56 → 861 lux) — transición rápida típica de salida del sol.",
+        "Picos de luminosidad muy altos durante el día: 09:30 (1154 lux), 14:00 (1170 lux) y 14:30 (1112 lux).",
+        "Caída abrupta de luminosidad a las 11:00 (1015 → 169 lux) indicando paso rápido de nubosidad/cobertura.",
+        "Variaciones notables de humedad relativa puntuales (ej. 06:30 97.5%, 08:00 97.9%) que indican aire muy saturado en episodios."
+    ],
+    "observaciones": "Ambiente generalmente húmedo con suelo saturado en varios momentos; la presión en ascenso sugiere condiciones relativamente estables a corto plazo. La combinación de alta humedad y variabilidad de luminosidad apunta a cielo parcialmente nublado con nubes pasajeras y posibilidad de formación de rocío o niebla nocturna. Las caídas y subidas muy rápidas de humedad del suelo son inusuales y podrían deberse a riego localizado, escorrentía puntual o problemas en el sensor; recomendar verificar sensor de humedad del suelo. No se observan señales claras de tormentas eléctricas (vibración mínima, presión moderadamente estable)."
+}

@@ -1,0 +1,120 @@
+:root{
+  --bg: #0b1220;
+  --card: #071226;
+  --text: #e6eef6;
+  --muted: #9aa4b2;
+  --glass: rgba(255,255,255,0.03);
+  --radius: 10px;
+}
+/*esta monda es lo que dice como se ve la pagina*/
+*{box-sizing:border-box}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-image: url(../images/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+html,body{
+  height:100%;
+  margin:0;
+  font-family:Inter,system-ui,Segoe UI,Roboto,Arial;
+  color:var(--text);
+  background-attachment: fixed;
+}
+
+.wrap{
+  max-width:1100px;
+  margin:28px auto;
+  padding:18px
+}
+
+.header {
+  position: relative;
+}
+
+.header h1{margin:0;font-size:1.25rem}
+
+.sub{
+  margin:6px 0 18px;
+  color:var(--muted);
+  font-size:0.95rem;
+
+}
+
+.grid-charts{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:14px;
+  align-items:stretch;
+}
+
+/* carta para cada canvas */
+.card{
+  background: linear-gradient(180deg,var(--card), rgba(10,16,30,0.6));
+  border-radius: var(--radius);
+  padding:10px;
+  height:220px;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+  display:flex;
+  align-items:stretch;
+  backdrop-filter: blur(6px);
+}
+
+canvas{
+  width:100% !important; 
+  height:100% !important; 
+  display:block}
+
+/* footer */
+.footer{margin-top:12px;color:var(--muted);font-size:0.85rem}
+
+/* responsive */
+@media (max-width:900px){
+  .grid-charts{ grid-template-columns: 1fr; }
+  .card.wide{ grid-column: auto }
+  .card{ height:280px }
+}
+
+.report-actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.report-button {
+  background: linear-gradient(180deg, var(--card), rgba(10, 16, 30, 0.6));
+  border: 1px solid var(--glass);
+  color: var(--text);
+  padding: 10px 20px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 15px rgba(2, 6, 23, 0.4);
+  cursor: pointer;
+}
+
+.report-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+}
+
+.report-content-area {
+  background: rgba(7, 18, 38, 0.8);
+  padding: 20px;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 30px rgba(2, 6, 23, 0.6);
+  backdrop-filter: blur(6px);
+}

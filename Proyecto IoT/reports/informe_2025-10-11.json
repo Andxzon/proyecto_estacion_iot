@@ -1,0 +1,14 @@
+{
+    "fecha": "2025-10-11",
+    "resumen": "Día de prueba (11). Soleado y ventoso.",
+    "variables": {
+        "temperatura": {
+            "promedio": 23.0,
+            "max": 26.8,
+            "min": 19.2,
+            "tendencia": "en aumento"
+        }
+    },
+    "anomalias": [],
+    "observaciones": "Vientos fuertes por la mañana."
+}

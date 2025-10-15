@@ -1,0 +1,16 @@
+{
+    "fecha": "2025-10-12",
+    "resumen": "Día de prueba (12). Nublado con llovizna por la tarde.",
+    "variables": {
+        "temperatura": {
+            "promedio": 18.2,
+            "max": 20.5,
+            "min": 16.1,
+            "tendencia": "estable"
+        }
+    },
+    "anomalias": [
+        "Humedad relativa aumentó al 90% a las 17:00."
+    ],
+    "observaciones": "Condiciones húmedas y frías."
+}

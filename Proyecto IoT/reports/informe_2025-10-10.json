@@ -1,0 +1,16 @@
+{
+    "fecha": "2025-10-10",
+    "resumen": "Día de prueba (10). Parcialmente nublado.",
+    "variables": {
+        "temperatura": {
+            "promedio": 20.1,
+            "max": 24.3,
+            "min": 18.0,
+            "tendencia": "estable"
+        }
+    },
+    "anomalias": [
+        "Caída de presión a mediodía."
+    ],
+    "observaciones": "Clima templado y agradable."
+}

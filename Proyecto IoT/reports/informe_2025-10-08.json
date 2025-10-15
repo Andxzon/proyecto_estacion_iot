@@ -1,0 +1,14 @@
+{
+    "fecha": "2025-10-08",
+    "resumen": "Día de prueba (8). Despejado y caluroso.",
+    "variables": {
+        "temperatura": {
+            "promedio": 25.8,
+            "max": 30.2,
+            "min": 21.0,
+            "tendencia": "en aumento"
+        }
+    },
+    "anomalias": [],
+    "observaciones": "Temperaturas por encima del promedio estacional."
+}

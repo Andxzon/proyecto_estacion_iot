@@ -1,0 +1,16 @@
+{
+    "fecha": "2025-10-09",
+    "resumen": "Día de prueba (9). Lluvias intermitentes durante todo el día.",
+    "variables": {
+        "temperatura": {
+            "promedio": 17.5,
+            "max": 19.0,
+            "min": 16.5,
+            "tendencia": "en descenso"
+        }
+    },
+    "anomalias": [
+        "Precipitación máxima a las 11:00."
+    ],
+    "observaciones": "Día muy húmedo, se recomienda precaución."
+}

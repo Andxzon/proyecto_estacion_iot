@@ -1,0 +1,16 @@
+{
+    "fecha": "2025-10-13",
+    "resumen": "Día de prueba (13). Mayormente soleado con algunas nubes.",
+    "variables": {
+        "temperatura": {
+            "promedio": 21.5,
+            "max": 27.1,
+            "min": 17.9,
+            "tendencia": "en descenso"
+        }
+    },
+    "anomalias": [
+        "Pico de temperatura a las 14:30."
+    ],
+    "observaciones": "El día se enfrió progresivamente."
+}
