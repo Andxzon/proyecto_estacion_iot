@@ -1,12 +1,27 @@
 const mqtt = require('mqtt');
 const fs = require('fs');
 
+// --- MODO DE RESETEO ---
+// Revisa si el script fue ejecutado con el argumento --reset
+const args = process.argv.slice(2);
+if (args.includes('--reset')) {
+  try {
+    // Intenta borrar el archivo history.txt
+    fs.unlinkSync('history.txt');
+    console.log('✅ history.txt ha sido reiniciado.');
+  } catch (err) {
+    // Si el archivo no existe, no es un error, así que lo ignoramos.
+    // Si es otro error, lo mostramos.
+    if (err.code !== 'ENOENT') console.error('Error al reiniciar history.txt:', err);
+  }
+}
+
 const SENSORS = [
   { id: 'tempChart',  label: 'Temperatura',    unit: '°C',   topic: 'clima/temperatura' },
   { id: 'presChart',  label: 'Presión',        unit: 'hPa',  topic: 'clima/presion' },
   { id: 'humChart',   label: 'Humedad',        unit: '%',    topic: 'clima/humedad' },
   { id: 'soilChart',  label: 'Humedad suelo',  unit: '%',    topic: 'clima/humedad_suelo' },
-  { id: 'lightChart', label: 'Luz',            unit: 'lux',  topic: 'clima/luz' }
+  { id: 'lightChart', label: 'Luz',            unit: 'lux',  topic: 'clima/lux' }
 ];
 
 const lastValues = {};
@@ -26,15 +41,30 @@ client.on("message", (topic, message) => {
   }
 });
 
+function getTimestampGmtMinus5() {
+    const now = new Date();
+    // Create a date object for a timezone 5 hours behind UTC
+    const dateInGmtMinus5 = new Date(now.valueOf() - 5 * 60 * 60 * 1000);
+
+    const year = dateInGmtMinus5.getUTCFullYear();
+    const month = String(dateInGmtMinus5.getUTCMonth() + 1).padStart(2, '0');
+    const day = String(dateInGmtMinus5.getUTCDate()).padStart(2, '0');
+    const hours = String(dateInGmtMinus5.getUTCHours()).padStart(2, '0');
+    const minutes = String(dateInGmtMinus5.getUTCMinutes()).padStart(2, '0');
+    const seconds = String(dateInGmtMinus5.getUTCSeconds()).padStart(2, '0');
+
+    return `${year}-${month}-${day}T${hours}:${minutes}:${seconds}-05:00`;
+}
+
 function saveData() {
-  const timestamp = new Date().toISOString();
-  let dataString = `${timestamp}:
-`;
-  for (const label in lastValues) {
-    const sensor = SENSORS.find(s => s.label === label);
-    dataString += `  ${label}: ${lastValues[label]} ${sensor.unit}
-`;
-  }
+  const timestamp = getTimestampGmtMinus5();
+  let dataString = `${timestamp}:\n`;
+  SENSORS.forEach(sensor => {
+    const value = lastValues[sensor.label];
+    if (value !== undefined) {
+      dataString += `  ${sensor.label}: ${value} ${sensor.unit}\n`;
+    }
+  });
   dataString += '\n';
 
   fs.appendFile('history.txt', dataString, (err) => {
@@ -46,7 +76,7 @@ function saveData() {
   });
 }
 
-// Guardar datos cada 30 minutos
-setInterval(saveData, 30 * 60 * 1000);
+// Guardar datos cada 5 min
+setInterval(saveData, 1000);
 
-console.log("Logger iniciado. Guardando datos cada 30 minutos en history.txt");
+console.log("Logger iniciado. Guardando datos cada 5 minutos en history.txt");

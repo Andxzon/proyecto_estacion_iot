@@ -8,7 +8,8 @@ const SENSORS = [
   { id: 'presChart',  label: 'Presión',        unit: 'hPa',  topic: 'clima/presion',        suggestedMin: 0,   suggestedMax: 1100, color: 'rgba(54,162,235,0.95)' },
   { id: 'humChart',   label: 'Humedad',        unit: '%',    topic: 'clima/humedad',        suggestedMin: 0,   suggestedMax: 85,  color: 'rgba(75,192,192,0.95)' },
   { id: 'soilChart',  label: 'Humedad suelo',  unit: '%',    topic: 'clima/humedad_suelo',  suggestedMin: 0,   suggestedMax: 100,  color: 'rgba(153,102,255,0.95)' },
-  { id: 'lightChart', label: 'Luz',            unit: 'lux',  topic: 'clima/luz',            suggestedMin: 0,   suggestedMax: 5000, color: 'rgba(255,206,86,0.95)' }
+  { id: 'lightChart', label: 'Luz',            unit: 'lux',  topic: 'clima/lux',            suggestedMin: 0,   suggestedMax: 5000, color: 'rgba(255,206,86,0.95)' },
+  { id: 'vibrChart',  label: 'Vibración',      unit: 'Hz',   topic: 'clima/vibracion',      suggestedMin: 0,   suggestedMax: 2,  color: 'rgba(255, 159, 64, 0.95)' }
 ];
 
 const charts = {}; // guardará instancias de Chart.js
@@ -87,35 +88,61 @@ client.on("connect", () => {
 });
 
 client.on("message", (topic, message) => {
-  const value = parseFloat(message.toString());
-  const t = Date.now();
-  const windowStart = t - WINDOW_MINUTES * 60 * 1000;
+    const value = parseFloat(message.toString());
+    const t = Date.now();
 
-  // Buscar el sensor asociado al topic
-  const sensor = SENSORS.find(s => s.topic === topic);
-  if (!sensor) return;
+    const sensor = SENSORS.find(s => s.topic === topic);
+    if (!sensor) return;
 
-  const chart = charts[sensor.id];
-  const dataset = chart.data.datasets[0].data;
+    if (sensor.topic === 'clima/vibracion' && localStorage.getItem('isSubscribed') === 'true') {
+        checkSeismicAlert(value);
+    }
 
-  // Añadir nuevo dato
-  dataset.push({ x: t, y: value });
+    const chart = charts[sensor.id];
+    if (!chart) return;
 
-  // Eliminar puntos fuera de la ventana
-  while (dataset.length && dataset[0].x < windowStart) dataset.shift();
+    const dataset = chart.data.datasets[0].data;
+    const windowStart = t - WINDOW_MINUTES * 60 * 1000;
 
-  // Limitar a 300 puntos máximo
-  const MAX_POINTS = 300;
-  if (dataset.length > MAX_POINTS) {
-  dataset.splice(0, dataset.length - MAX_POINTS);
-  }
+    dataset.push({ x: t, y: value });
 
-  // Refrescar gráfico
-  chart.update('none');
-  
-  // Guardar en cache/localStorage
-  saveData(sensor.id, dataset);
+    while (dataset.length && dataset[0].x < windowStart) {
+        dataset.shift();
+    }
+
+    // Set the chart's visible range to a 10-minute window
+    chart.options.scales.x.min = windowStart;
+    chart.options.scales.x.max = t;
+
+    const MAX_POINTS = 6000;
+    if (dataset.length > MAX_POINTS) {
+        dataset.splice(0, dataset.length - MAX_POINTS);
+    }
+
+    saveData(sensor.id, dataset);
 });
+
+// Actualización de gráficos a diferentes intervalos
+const standardSensors = SENSORS.filter(s => s.id !== 'vibrChart');
+const highFrequencySensors = SENSORS.filter(s => s.id === 'vibrChart');
+
+// Actualizar gráficos estándar cada 2 segundos
+setInterval(() => {
+    standardSensors.forEach(sensor => {
+        if (charts[sensor.id]) {
+            charts[sensor.id].update('none');
+        }
+    });
+}, 2000);
+
+// Actualizar gráfico de vibración cada 100 ms
+setInterval(() => {
+    highFrequencySensors.forEach(sensor => {
+        if (charts[sensor.id]) {
+            charts[sensor.id].update('none');
+        }
+    });
+}, 100);
 
 // ---------------- INFORME INTELIGENTE ----------------
 
@@ -191,7 +218,7 @@ function toggleSubscription() {
 
 function startNotifications() {
     sendNotification();
-    notificationInterval = setInterval(sendNotification, 10000); // 1 hora
+    notificationInterval = setInterval(sendNotification, 10000); // 10 seguntos
 }
 
 function stopNotifications() {
@@ -223,6 +250,32 @@ async function sendNotification() {
     } catch (error) {
         console.error('Error al enviar la notificación:', error);
     }
+}
+
+// ---------------- ALERTA SÍSMICA ----------------
+let lastAlertTimestamp = 0;
+const ALERT_COOLDOWN = 60000; // 1 minuto de enfriamiento
+const SEISMIC_THRESHOLD = 1.1; 
+
+function checkSeismicAlert(magnitude) {
+    const now = Date.now();
+    if (now - lastAlertTimestamp < ALERT_COOLDOWN) {
+        return; 
+    }
+    
+    console.log(`Magnitud de vibración: ${magnitude}`);
+
+    if (magnitude > SEISMIC_THRESHOLD) {
+        sendSeismicAlert();
+        lastAlertTimestamp = now;
+    }
+}
+
+function sendSeismicAlert() {
+    const notification = new Notification('ALERTA SÍSMICA 🚨', {
+        body: 'Se detectó una vibración superior al umbral de seguridad.\nRevise condiciones en el área.',
+        icon: 'images/alert_noti.png'
+    });
 }
 
 document.addEventListener('DOMContentLoaded', checkSubscriptionStatus);
