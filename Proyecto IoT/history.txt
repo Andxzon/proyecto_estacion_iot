@@ -1,48 +1,1333 @@
-2025-10-13 00:00:00,Temperatura:21.3,Presión atmosférica:1004.3,Luminosidad:87.0,Vibración:0.3,Humedad relativa:93.0,Humedad del suelo:86.9
-2025-10-13 00:30:00,Temperatura:18.6,Presión atmosférica:1005.6,Luminosidad:53.0,Vibración:0.2,Humedad relativa:92.4,Humedad del suelo:86.9
-2025-10-13 01:00:00,Temperatura:19.0,Presión atmosférica:1007.0,Luminosidad:6.0,Vibración:0.2,Humedad relativa:87.2,Humedad del suelo:94.6
-2025-10-13 01:30:00,Temperatura:17.0,Presión atmosférica:1005.9,Luminosidad:89.0,Vibración:0.0,Humedad relativa:96.2,Humedad del suelo:76.8
-2025-10-13 02:00:00,Temperatura:18.6,Presión atmosférica:1005.2,Luminosidad:88.0,Vibración:0.3,Humedad relativa:89.2,Humedad del suelo:90.5
-2025-10-13 02:30:00,Temperatura:20.8,Presión atmosférica:1004.9,Luminosidad:90.0,Vibración:0.3,Humedad relativa:88.1,Humedad del suelo:80.6
-2025-10-13 03:00:00,Temperatura:19.6,Presión atmosférica:1006.7,Luminosidad:87.0,Vibración:0.3,Humedad relativa:90.1,Humedad del suelo:86.1
-2025-10-13 03:30:00,Temperatura:21.0,Presión atmosférica:1004.9,Luminosidad:15.0,Vibración:0.3,Humedad relativa:96.8,Humedad del suelo:80.8
-2025-10-13 04:00:00,Temperatura:19.7,Presión atmosférica:1004.9,Luminosidad:24.0,Vibración:0.2,Humedad relativa:92.5,Humedad del suelo:87.8
-2025-10-13 04:30:00,Temperatura:18.1,Presión atmosférica:1004.6,Luminosidad:5.0,Vibración:0.2,Humedad relativa:88.3,Humedad del suelo:85.9
-2025-10-13 05:00:00,Temperatura:19.6,Presión atmosférica:1008.5,Luminosidad:96.0,Vibración:0.1,Humedad relativa:93.4,Humedad del suelo:93.1
-2025-10-13 05:30:00,Temperatura:17.9,Presión atmosférica:1007.7,Luminosidad:56.0,Vibración:0.1,Humedad relativa:91.1,Humedad del suelo:80.7
-2025-10-13 06:00:00,Temperatura:19.3,Presión atmosférica:1008.1,Luminosidad:861.0,Vibración:0.0,Humedad relativa:89.2,Humedad del suelo:80.9
-2025-10-13 06:30:00,Temperatura:18.4,Presión atmosférica:1007.4,Luminosidad:223.0,Vibración:0.2,Humedad relativa:97.5,Humedad del suelo:85.2
-2025-10-13 07:00:00,Temperatura:19.0,Presión atmosférica:1007.3,Luminosidad:536.0,Vibración:0.1,Humedad relativa:95.1,Humedad del suelo:80.6
-2025-10-13 07:30:00,Temperatura:18.0,Presión atmosférica:1007.0,Luminosidad:362.0,Vibración:0.3,Humedad relativa:89.6,Humedad del suelo:78.5
-2025-10-13 08:00:00,Temperatura:21.3,Presión atmosférica:1005.6,Luminosidad:188.0,Vibración:0.1,Humedad relativa:97.9,Humedad del suelo:77.6
-2025-10-13 08:30:00,Temperatura:19.8,Presión atmosférica:1003.5,Luminosidad:601.0,Vibración:0.2,Humedad relativa:94.3,Humedad del suelo:83.3
-2025-10-13 09:00:00,Temperatura:20.3,Presión atmosférica:1007.7,Luminosidad:1012.0,Vibración:0.0,Humedad relativa:91.4,Humedad del suelo:91.3
-2025-10-13 09:30:00,Temperatura:18.8,Presión atmosférica:1007.2,Luminosidad:1154.0,Vibración:0.0,Humedad relativa:91.2,Humedad del suelo:90.9
-2025-10-13 10:00:00,Temperatura:17.9,Presión atmosférica:1003.2,Luminosidad:1010.0,Vibración:0.3,Humedad relativa:91.6,Humedad del suelo:91.9
-2025-10-13 10:30:00,Temperatura:17.6,Presión atmosférica:1004.8,Luminosidad:1015.0,Vibración:0.3,Humedad relativa:87.7,Humedad del suelo:78.9
-2025-10-13 11:00:00,Temperatura:19.4,Presión atmosférica:1008.2,Luminosidad:169.0,Vibración:0.0,Humedad relativa:88.4,Humedad del suelo:88.7
-2025-10-13 11:30:00,Temperatura:18.1,Presión atmosférica:1003.5,Luminosidad:289.0,Vibración:0.2,Humedad relativa:90.7,Humedad del suelo:80.9
-2025-10-13 12:00:00,Temperatura:18.4,Presión atmosférica:1008.6,Luminosidad:210.0,Vibración:0.1,Humedad relativa:86.0,Humedad del suelo:86.0
-2025-10-13 12:30:00,Temperatura:19.4,Presión atmosférica:1003.9,Luminosidad:307.0,Vibración:0.3,Humedad relativa:93.5,Humedad del suelo:82.1
-2025-10-13 13:00:00,Temperatura:18.5,Presión atmosférica:1005.5,Luminosidad:664.0,Vibración:0.2,Humedad relativa:95.0,Humedad del suelo:78.6
-2025-10-13 13:30:00,Temperatura:18.7,Presión atmosférica:1003.4,Luminosidad:155.0,Vibración:0.1,Humedad relativa:91.3,Humedad del suelo:77.4
-2025-10-13 14:00:00,Temperatura:19.8,Presión atmosférica:1006.8,Luminosidad:1170.0,Vibración:0.2,Humedad relativa:96.0,Humedad del suelo:86.0
-2025-10-13 14:30:00,Temperatura:19.3,Presión atmosférica:1008.5,Luminosidad:1112.0,Vibración:0.1,Humedad relativa:89.9,Humedad del suelo:94.2
-2025-10-13 15:00:00,Temperatura:17.9,Presión atmosférica:1007.0,Luminosidad:1049.0,Vibración:0.1,Humedad relativa:90.0,Humedad del suelo:88.5
-2025-10-13 15:30:00,Temperatura:21.5,Presión atmosférica:1004.7,Luminosidad:1031.0,Vibración:0.2,Humedad relativa:90.5,Humedad del suelo:85.8
-2025-10-13 16:00:00,Temperatura:17.4,Presión atmosférica:1006.2,Luminosidad:810.0,Vibración:0.2,Humedad relativa:97.0,Humedad del suelo:92.3
-2025-10-13 16:30:00,Temperatura:18.3,Presión atmosférica:1008.0,Luminosidad:580.0,Vibración:0.3,Humedad relativa:92.8,Humedad del suelo:79.6
-2025-10-13 17:00:00,Temperatura:19.1,Presión atmosférica:1007.3,Luminosidad:435.0,Vibración:0.2,Humedad relativa:89.6,Humedad del suelo:82.6
-2025-10-13 17:30:00,Temperatura:17.3,Presión atmosférica:1008.7,Luminosidad:537.0,Vibración:0.2,Humedad relativa:91.3,Humedad del suelo:83.2
-2025-10-13 18:00:00,Temperatura:17.5,Presión atmosférica:1005.3,Luminosidad:879.0,Vibración:0.2,Humedad relativa:95.5,Humedad del suelo:85.6
-2025-10-13 18:30:00,Temperatura:18.3,Presión atmosférica:1005.6,Luminosidad:323.0,Vibración:0.0,Humedad relativa:90.1,Humedad del suelo:91.3
-2025-10-13 19:00:00,Temperatura:21.4,Presión atmosférica:1003.8,Luminosidad:50.0,Vibración:0.2,Humedad relativa:94.0,Humedad del suelo:79.5
-2025-10-13 19:30:00,Temperatura:18.1,Presión atmosférica:1008.6,Luminosidad:32.0,Vibración:0.1,Humedad relativa:91.5,Humedad del suelo:94.3
-2025-10-13 20:00:00,Temperatura:18.1,Presión atmosférica:1003.7,Luminosidad:45.0,Vibración:0.2,Humedad relativa:88.1,Humedad del suelo:94.6
-2025-10-13 20:30:00,Temperatura:21.5,Presión atmosférica:1007.2,Luminosidad:22.0,Vibración:0.0,Humedad relativa:97.3,Humedad del suelo:93.8
-2025-10-13 21:00:00,Temperatura:21.0,Presión atmosférica:1005.8,Luminosidad:39.0,Vibración:0.0,Humedad relativa:85.9,Humedad del suelo:80.3
-2025-10-13 21:30:00,Temperatura:20.9,Presión atmosférica:1006.3,Luminosidad:53.0,Vibración:0.1,Humedad relativa:95.0,Humedad del suelo:88.7
-2025-10-13 22:00:00,Temperatura:17.6,Presión atmosférica:1003.9,Luminosidad:33.0,Vibración:0.0,Humedad relativa:88.8,Humedad del suelo:93.2
-2025-10-13 22:30:00,Temperatura:18.8,Presión atmosférica:1008.3,Luminosidad:56.0,Vibración:0.2,Humedad relativa:85.6,Humedad del suelo:85.2
-2025-10-13 23:00:00,Temperatura:17.9,Presión atmosférica:1008.7,Luminosidad:35.0,Vibración:0.2,Humedad relativa:94.4,Humedad del suelo:85.9
-2025-10-13 23:30:00,Temperatura:19.7,Presión atmosférica:1008.5,Luminosidad:62.0,Vibración:0.1,Humedad relativa:90.7,Humedad del suelo:92.2
+
+2025-10-21T21:47:20-05:00:
+
+2025-10-21T21:47:21-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.03 hPa
+  Humedad: 55.92 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:22-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.05 hPa
+  Humedad: 55.92 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:23-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.03 hPa
+  Humedad: 55.9 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:24-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.02 hPa
+  Humedad: 55.88 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:25-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.02 hPa
+  Humedad: 55.89 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:26-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.02 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:27-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.05 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:28-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.03 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:29-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.05 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:30-05:00:
+  Temperatura: 28.48 °C
+  Presión: 849.05 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:31-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.05 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:32-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.04 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:33-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.05 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:34-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.01 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:35-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.03 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:36-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.03 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:37-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.05 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:38-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.02 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:39-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.03 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:40-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.02 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:41-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.06 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:42-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.04 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:43-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.06 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:44-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.04 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:45-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.05 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:46-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.05 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:47-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.01 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:49-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.04 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:50-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.05 hPa
+  Humedad: 55.91 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:51-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.05 hPa
+  Humedad: 55.91 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:52-05:00:
+  Temperatura: 28.48 °C
+  Presión: 849.03 hPa
+  Humedad: 55.93 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:53-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.03 hPa
+  Humedad: 55.97 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:54-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.05 hPa
+  Humedad: 55.97 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:55-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.01 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:56-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:57-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.03 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:58-05:00:
+  Temperatura: 28.52 °C
+  Presión: 848.99 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:47:59-05:00:
+  Temperatura: 28.52 °C
+  Presión: 848.99 hPa
+  Humedad: 55.92 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:00-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.01 hPa
+  Humedad: 55.89 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:01-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.02 hPa
+  Humedad: 55.88 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:02-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.02 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 11.67 lux
+
+2025-10-21T21:48:03-05:00:
+  Temperatura: 28.54 °C
+  Presión: 848.98 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 11.67 lux
+
+2025-10-21T21:48:04-05:00:
+  Temperatura: 28.54 °C
+  Presión: 849.03 hPa
+  Humedad: 55.85 %
+  Humedad suelo: 0 %
+  Luz: 11.67 lux
+
+2025-10-21T21:48:05-05:00:
+  Temperatura: 28.54 °C
+  Presión: 848.99 hPa
+  Humedad: 55.85 %
+  Humedad suelo: 0 %
+  Luz: 11.67 lux
+
+2025-10-21T21:48:06-05:00:
+  Temperatura: 28.55 °C
+  Presión: 849 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:07-05:00:
+  Temperatura: 28.55 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:08-05:00:
+  Temperatura: 28.54 °C
+  Presión: 849 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:09-05:00:
+  Temperatura: 28.54 °C
+  Presión: 848.98 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:10-05:00:
+  Temperatura: 28.54 °C
+  Presión: 848.99 hPa
+  Humedad: 55.75 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:11-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:12-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.01 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:13-05:00:
+  Temperatura: 28.54 °C
+  Presión: 849.02 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:14-05:00:
+  Temperatura: 28.53 °C
+  Presión: 848.99 hPa
+  Humedad: 55.77 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:15-05:00:
+  Temperatura: 28.54 °C
+  Presión: 848.98 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:16-05:00:
+  Temperatura: 28.54 °C
+  Presión: 849.01 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:17-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.01 hPa
+  Humedad: 55.74 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:18-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849.03 hPa
+  Humedad: 55.73 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:19-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849.01 hPa
+  Humedad: 55.74 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:20-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.01 hPa
+  Humedad: 55.7 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:21-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.02 hPa
+  Humedad: 55.67 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:22-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.04 hPa
+  Humedad: 55.64 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:23-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.01 hPa
+  Humedad: 55.66 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:24-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.03 hPa
+  Humedad: 55.69 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:25-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849 hPa
+  Humedad: 55.74 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:26-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:27-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.03 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:28-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849.02 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:29-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849.04 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:30-05:00:
+  Temperatura: 28.51 °C
+  Presión: 848.99 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:31-05:00:
+  Temperatura: 28.52 °C
+  Presión: 848.97 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:32-05:00:
+  Temperatura: 28.52 °C
+  Presión: 848.97 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:33-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.02 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:34-05:00:
+  Temperatura: 28.52 °C
+  Presión: 848.99 hPa
+  Humedad: 55.85 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:35-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.02 hPa
+  Humedad: 55.85 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:36-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:37-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849.01 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:38-05:00:
+  Temperatura: 28.53 °C
+  Presión: 849.03 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:39-05:00:
+  Temperatura: 28.52 °C
+  Presión: 849 hPa
+  Humedad: 55.75 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:40-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849 hPa
+  Humedad: 55.73 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:41-05:00:
+  Temperatura: 28.51 °C
+  Presión: 849.01 hPa
+  Humedad: 55.72 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:42-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.02 hPa
+  Humedad: 55.72 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:43-05:00:
+  Temperatura: 28.5 °C
+  Presión: 849.04 hPa
+  Humedad: 55.75 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:44-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.02 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:45-05:00:
+  Temperatura: 28.49 °C
+  Presión: 849.01 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:46-05:00:
+  Temperatura: 28.48 °C
+  Presión: 849.01 hPa
+  Humedad: 55.74 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:47-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.05 hPa
+  Humedad: 55.73 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:48-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.04 hPa
+  Humedad: 55.75 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:49-05:00:
+  Temperatura: 28.47 °C
+  Presión: 849.01 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:50-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.02 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:51-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.04 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:52-05:00:
+  Temperatura: 28.46 °C
+  Presión: 849.04 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:53-05:00:
+  Temperatura: 28.45 °C
+  Presión: 849.02 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:54-05:00:
+  Temperatura: 28.45 °C
+  Presión: 849.05 hPa
+  Humedad: 55.78 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:55-05:00:
+  Temperatura: 28.44 °C
+  Presión: 849.03 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:56-05:00:
+  Temperatura: 28.44 °C
+  Presión: 849.02 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:57-05:00:
+  Temperatura: 28.44 °C
+  Presión: 849.03 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:58-05:00:
+  Temperatura: 28.44 °C
+  Presión: 849.03 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:48:59-05:00:
+  Temperatura: 28.42 °C
+  Presión: 849.02 hPa
+  Humedad: 55.81 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:00-05:00:
+  Temperatura: 28.43 °C
+  Presión: 849.03 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:01-05:00:
+  Temperatura: 28.43 °C
+  Presión: 849.04 hPa
+  Humedad: 55.79 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:02-05:00:
+  Temperatura: 28.42 °C
+  Presión: 849.02 hPa
+  Humedad: 55.77 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:03-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.76 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:04-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.8 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:05-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.01 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:06-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:07-05:00:
+  Temperatura: 28.42 °C
+  Presión: 849.04 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:08-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.04 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:09-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:10-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.85 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:11-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:12-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.04 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:13-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:14-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:15-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:16-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:17-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.04 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:18-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:19-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.01 hPa
+  Humedad: 55.89 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:20-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.91 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:21-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.05 hPa
+  Humedad: 55.93 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:22-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:23-05:00:
+  Temperatura: 28.42 °C
+  Presión: 849.04 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:24-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:25-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.04 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:26-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.04 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:28-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.93 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:29-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.01 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:30-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.96 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:31-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 13.33 lux
+
+2025-10-21T21:49:32-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.04 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:33-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.96 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:34-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:35-05:00:
+  Temperatura: 28.42 °C
+  Presión: 849.02 hPa
+  Humedad: 55.95 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:36-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.92 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:37-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.91 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:38-05:00:
+  Temperatura: 28.41 °C
+  Presión: 848.99 hPa
+  Humedad: 55.9 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:39-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.03 hPa
+  Humedad: 55.89 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:40-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.01 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:41-05:00:
+  Temperatura: 28.41 °C
+  Presión: 849.02 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:42-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.03 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:43-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:44-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:45-05:00:
+  Temperatura: 28.39 °C
+  Presión: 849.06 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:46-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:47-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.02 hPa
+  Humedad: 55.87 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:48-05:00:
+  Temperatura: 28.4 °C
+  Presión: 849.03 hPa
+  Humedad: 55.88 %
+  Humedad suelo: 0 %
+  Luz: 13.33 lux
+
+2025-10-21T21:49:49-05:00:
+  Temperatura: 28.39 °C
+  Presión: 849 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:50-05:00:
+  Temperatura: 28.39 °C
+  Presión: 849.03 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:51-05:00:
+  Temperatura: 28.38 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:52-05:00:
+  Temperatura: 28.38 °C
+  Presión: 849.03 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:53-05:00:
+  Temperatura: 28.38 °C
+  Presión: 849 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:54-05:00:
+  Temperatura: 28.37 °C
+  Presión: 849.03 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:55-05:00:
+  Temperatura: 28.37 °C
+  Presión: 849.04 hPa
+  Humedad: 55.82 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:56-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.02 hPa
+  Humedad: 55.83 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:57-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.02 hPa
+  Humedad: 55.84 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:58-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849 hPa
+  Humedad: 55.86 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:49:59-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 55.88 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:00-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 55.91 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:01-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.03 hPa
+  Humedad: 55.92 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:02-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 55.96 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:03-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.03 hPa
+  Humedad: 55.98 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:04-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 56.01 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:05-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.03 hPa
+  Humedad: 56.01 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:06-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.03 hPa
+  Humedad: 56.01 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:07-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.02 hPa
+  Humedad: 56 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:08-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.02 hPa
+  Humedad: 55.99 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:09-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.01 hPa
+  Humedad: 55.99 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:10-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.01 hPa
+  Humedad: 55.97 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:11-05:00:
+  Temperatura: 28.36 °C
+  Presión: 848.99 hPa
+  Humedad: 55.97 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:12-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.02 hPa
+  Humedad: 55.96 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:13-05:00:
+  Temperatura: 28.36 °C
+  Presión: 849.04 hPa
+  Humedad: 55.96 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:14-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.01 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:15-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.01 hPa
+  Humedad: 55.93 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:16-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.03 hPa
+  Humedad: 55.93 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:17-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:18-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:19-05:00:
+  Temperatura: 28.33 °C
+  Presión: 849.01 hPa
+  Humedad: 55.94 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:20-05:00:
+  Temperatura: 28.33 °C
+  Presión: 849.01 hPa
+  Humedad: 55.98 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:21-05:00:
+  Temperatura: 28.33 °C
+  Presión: 848.98 hPa
+  Humedad: 56.02 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:22-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.01 hPa
+  Humedad: 56.06 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:23-05:00:
+  Temperatura: 28.34 °C
+  Presión: 848.99 hPa
+  Humedad: 56.08 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:24-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 56.11 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:25-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 56.1 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:26-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.02 hPa
+  Humedad: 56.07 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:27-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849 hPa
+  Humedad: 56.04 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:28-05:00:
+  Temperatura: 28.35 °C
+  Presión: 849.01 hPa
+  Humedad: 56.02 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:29-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.01 hPa
+  Humedad: 55.99 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:30-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.02 hPa
+  Humedad: 56.02 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:31-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.01 hPa
+  Humedad: 56.04 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
+2025-10-21T21:50:32-05:00:
+  Temperatura: 28.34 °C
+  Presión: 849.03 hPa
+  Humedad: 56.04 %
+  Humedad suelo: 0 %
+  Luz: 12.5 lux
+
