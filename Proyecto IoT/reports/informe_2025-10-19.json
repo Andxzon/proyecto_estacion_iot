@@ -1,0 +1,51 @@
+{
+    "fecha": "2025-10-19",
+    "resumen": "Período observado con descenso térmico progresivo y aumento de la humedad relativa; presión con ligero incremento. Humedad de suelo constante en 0% (posible fallo de sensor).",
+    "condicion_general": "Dia Parcialmente Nublado",
+    "variables": {
+        "temperatura": {
+            "promedio": 27.81,
+            "max": 29.38,
+            "min": 25.79,
+            "tendencia": "en descenso"
+        },
+        "presion": {
+            "promedio": 847.63,
+            "max": 848.31,
+            "min": 847.02,
+            "tendencia": "en aumento"
+        },
+        "humedad_relativa": {
+            "promedio": 51.5,
+            "max": 60.35,
+            "min": 46.34,
+            "tendencia": "en aumento"
+        },
+        "luminosidad": {
+            "promedio": null,
+            "max": null,
+            "min": null,
+            "tendencia": "no disponible"
+        },
+        "humedad_suelo": {
+            "promedio": 0,
+            "max": 0,
+            "min": 0,
+            "tendencia": "estable"
+        },
+        "vibracion": {
+            "promedio": null,
+            "max": null,
+            "min": null,
+            "tendencia": "no disponible"
+        }
+    },
+    "anomalias": [
+        "Caída de temperatura de 29.21 °C a 27.74 °C entre 2025-10-19T19:03:53.432Z y 2025-10-19T19:08:53.436Z (−1.47 °C en ~5 min).",
+        "Descenso continuado de temperatura desde 29.38 °C (2025-10-19T18:53:53.421Z) hasta 25.79 °C (2025-10-19T19:34:33-05:00) en la ventana observada (~3.59 °C de caída).",
+        "Aumento rápido de humedad relativa simultáneo a la caída de temperatura: de 48.56% (2025-10-19T19:03:53.432Z) a 50.83% (2025-10-19T19:08:53.436Z) y tendencia sostenida hasta 60.35% (2025-10-19T19:39:33-05:00).",
+        "Humedad de suelo registrada constantemente en 0% en todas las lecturas: probable fallo o sensor desconectado.",
+        "Mezcla de timestamps con sufijo Z (UTC) y con -05:00 en las últimas lecturas (p. ej. 2025-10-19T19:28:58-05:00): verificar sincronización/normalización de tiempo de las estaciones."
+    ],
+    "observaciones": "El periodo muestra un enfriamiento nocturno acompañado de un incremento notable de la humedad relativa, lo que sugiere aumento de nubosidad y mayor probabilidad de condiciones más húmedas por la noche (aunque no hay evidencia clara de precipitaciones). La presión presenta un leve ascenso, indicando estabilidad moderada a gran escala. Recomendable verificar el sensor de humedad de suelo (0% constante) y corregir la mezcla de zonas horarias en los registros."
+}

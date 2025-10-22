@@ -1,0 +1,53 @@
+{
+    "fecha": "2025-10-21",
+    "resumen": "Noche cálida y estable: temperaturas entre ~28.3°C y 28.6°C, presión cercana a 849 hPa con ligeras oscilaciones, humedad relativa en leve aumento y luminosidad baja típica nocturna.",
+    "condicion_general": "Estable",
+    "variables": {
+        "temperatura": {
+            "promedio": 28.44,
+            "max": 28.55,
+            "min": 28.33,
+            "tendencia": "en descenso"
+        },
+        "presion": {
+            "promedio": 849.02,
+            "max": 849.06,
+            "min": 848.97,
+            "tendencia": "estable"
+        },
+        "humedad_relativa": {
+            "promedio": 55.93,
+            "max": 56.11,
+            "min": 55.64,
+            "tendencia": "en aumento"
+        },
+        "luminosidad": {
+            "promedio": 12.45,
+            "max": 13.33,
+            "min": 11.67,
+            "tendencia": "estable"
+        },
+        "humedad_suelo": {
+            "promedio": 0,
+            "max": 0,
+            "min": 0,
+            "tendencia": "estable"
+        },
+        "vibracion": {
+            "promedio": 0,
+            "max": 0,
+            "min": 0,
+            "tendencia": "estable"
+        }
+    },
+    "anomalias": [
+        "Descenso gradual de temperatura desde ~28.55°C (picos iniciales) hasta ~28.33°C (final).",
+        "Variaciones de presión pequeñas pero repetidas entre 848.97 y 849.06 hPa.",
+        "Baja momentánea de luminosidad a 11.67 lux alrededor de 2025-10-21T21:48:02-05:00 a 2025-10-21T21:48:05-05:00.",
+        "Picos de luminosidad a 13.33 lux en 2025-10-21T21:49:31-05:00 y 2025-10-21T21:49:48-05:00.",
+        "Humedad relativa mostró cambio desde el mínimo ~55.64% (2025-10-21T21:48:22-05:00) hasta un máximo ~56.11% (2025-10-21T21:50:24-05:00).",
+        "Humedad de suelo constante en 0% durante todo el periodo (posible sensor seco o fuera de rango).",
+        "No se registraron datos de vibración (valores constantes a 0)."
+    ],
+    "observaciones": "Lecturas muestran condiciones nocturnas estables y cálidas sin indicios de precipitaciones inmediatas. La presión se mantiene cercana a 849 hPa con pequeñas oscilaciones, la humedad relativa aumenta levemente lo cual puede ser normal en periodo nocturno. La humedad de suelo en 0% sugiere sensor seco, fallo o ausencia de medición válida; verificar sensor de suelo. Variaciones puntuales en luminosidad son pequeñas y compatibles con cambios de iluminación local."
+}

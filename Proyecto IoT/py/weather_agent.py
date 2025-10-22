@@ -1,6 +1,6 @@
 import os
 import json
-from datetime import date
+from datetime import date, datetime, timedelta
 import openai
 from flask import Flask, jsonify, request
 from flask_cors import CORS
@@ -42,7 +42,7 @@ def read_history_file(file_path: str) -> str | None:
 def analyze_data_with_llm(data: str) -> dict | None:
     print("Enviando datos al LLM para análisis...")
     prompt = f'''
-    Analiza los siguientes datos meteorológicos de las últimas 24 horas. Cada línea contiene una marca de tiempo y valores de sensores.
+    Analiza los siguientes datos meteorológicos de las últimas 24 horas. Cada línea contiene una marca de tiempo en formato ISO (UTC).
 
     Datos:
     ---
@@ -50,7 +50,7 @@ def analyze_data_with_llm(data: str) -> dict | None:
     ---
 
     Tu tarea es generar un informe en formato JSON que contenga:
-    1.  `fecha`: La fecha de hoy en formato YYYY-MM-DD.
+    1.  `fecha`: La fecha de hoy en formato YYYY-MM-DD (zona horaria UTC).
     2.  `resumen`: Un texto corto y legible que describa el clima del día.
     3.  `condicion_general`: Una única palabra que resuma la condición climática del día (ej. "Dia Soleado", "Dia Lluvioso", "Dia Nublado", "Dia Parcialmente Nublado").
     4.  `variables`: Un objeto con una entrada para "temperatura", "presion", "humedad_relativa", "luminosidad", "humedad_suelo" y "vibracion". Para cada variable, calcula:
@@ -65,7 +65,7 @@ def analyze_data_with_llm(data: str) -> dict | None:
     '''
     try:
         print("Enviando solicitud a la API de OpenAI...")
-        # La API Key se lee automáticamente de la variable de entorno OPENAI_API_KEY
+        # La API Key se lee automáticamente de la variable de entorno OPENAI_AI_KEY
         client = openai.OpenAI()
         response = client.chat.completions.create(
             model="gpt-5-mini",
@@ -81,12 +81,17 @@ def analyze_data_with_llm(data: str) -> dict | None:
         return None
 
 def generate_report_file(analysis: dict):
-    report_date = analysis.get("fecha", date.today().isoformat())
+    # Get the current date in UTC-5 timezone
+    utc_minus_5 = datetime.utcnow() + timedelta(hours=-5)
+    report_date = utc_minus_5.strftime('%Y-%m-%d')
+
     if not os.path.exists('../reports'):
         os.makedirs('../reports')
     file_name = f"../reports/informe_{report_date}.json"
     print(f"Generando archivo de informe '{file_name}'...")
     try:
+        # Also update the 'fecha' field in the analysis data
+        analysis['fecha'] = report_date
         with open(file_name, 'w', encoding='utf-8') as f:
             json.dump(analysis, f, ensure_ascii=False, indent=4)
         print(f"Informe '{file_name}' generado con éxito.")
@@ -158,9 +163,9 @@ def handle_generate_report():
 # --- EJECUCIÓN DEL SERVIDOR ---
 
 if __name__ == '__main__':
-    # Programar la tarea para que se ejecute todos los días a las 02:40
+    # Programar la tarea para que se ejecute todos los días a las 00:00
     schedule.every().day.at("00:00").do(run_report_generation)
-    print("Tarea de generación de informes programada para ejecutarse todos los días a las 02:40.")
+    print("Tarea de generación de informes programada para ejecutarse todos los días a las 00:00.")
 
     # Iniciar el programador en un hilo separado para que no bloquee Flask
     scheduler_thread = threading.Thread(target=run_scheduler)
